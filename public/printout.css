@@ -1,0 +1,61 @@
+/* Add other styles from stylebook.css as needed */
+/* Add styles specific to printout.html */
+
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.file-upload {
+    margin-bottom: 20px;
+}
+
+.file-upload input {
+    display: none;
+}
+
+/* Style for both buttons */
+.button-style {
+    padding: 10px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for "Confirm Printout" button on hover */
+.button-style:hover {
+    background-color: #a343cc; /* Darker color on hover */
+}
+
+#fileDetails {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#fileDetails p {
+    margin: 10px 0;
+}
+
+#colorOption {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#estimatedAmount {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+}
+
+/* Add more styles as needed */

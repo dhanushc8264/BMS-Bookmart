@@ -1,0 +1,67 @@
+let shopItemsData = [
+  
+    {
+      id: "wuefbncxbsnzxbvcvbnm",
+      name: "Classmate Longbook Single Line",
+      pages: "160 Pages",
+      price: "55",
+      desc: "<span style=\"color: green; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(144, 238, 144, 0.2); border: 1px solid rgba(50, 205, 50, 0.5); padding: 5px;\">Bestseller</span>",
+      img: "https://rukminim2.flixcart.com/image/850/1000/kfoapow0/diary-notebook/a/e/t/classmate-2000234-original-imafw2qhzg7a5yhz.jpeg?q=20&crop=false",
+    },
+    {
+      id: "new_random_id_10",
+      name: "Bmsce Record - 200 pages",
+      price: "80",
+      desc: "<span style=\"color: red; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(255, 224, 178, 0.2); border: 1px solid rgba(255, 165, 0, 0.5); padding: 5px;\">Hot Deal</span>",
+      img: "https://i.imgur.com/xQRPpWD.jpg?resize=400:400",
+    },
+    
+    {
+      id: "new_random_id_2",
+      name: "Papergrid King Size Notebook",
+      pages: "10 Pages",
+      price: "50",
+      desc: "<span style=\"color: red; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(255, 224, 178, 0.2); border: 1px solid rgba(255, 165, 0, 0.5); padding: 5px;\">Hot Deal</span>",
+      img: "https://m.media-amazon.com/images/I/71PmkPFyVtL.SL1500.jpg",
+    },
+    {
+      id: "new_random_id_3",
+      name: "Classmate Unruled book",
+      pages: "160 Pages",
+      price: "150",
+      desc: "<span style=\"color: green; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(144, 238, 144, 0.2); border: 1px solid rgba(50, 205, 50, 0.5); padding: 5px;\">Bestseller</span>",
+      img: "https://m.media-amazon.com/images/I/41vhYJ5eQPL.SX300_SY300_QL70_FMwebp.jpg",
+    },
+    {
+      id: "new_random_id_4",
+      name: "Papercraft Vintage Series",
+      pages: "130 Pages",
+      price: "100",
+      desc: "<span style=\"color: green; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(144, 238, 144, 0.2); border: 1px solid rgba(50, 205, 50, 0.5); padding: 5px;\">Bestseller</span>",
+      img: "https://m.media-amazon.com/images/I/61jqFwbvOML.SL1500.jpg",
+    },
+    {
+      id: "new_random_id_5",
+      name: "Diary Notebook",
+      pages: "250 Pages",
+      price: "75",
+      desc: "<span style=\"color: blue; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(173, 216, 230, 0.2); border: 1px solid rgba(0, 191, 255, 0.5); padding: 5px;\">Popular</span>",
+      img: "https://m.media-amazon.com/images/I/61aDzgbKo5L.SL1500.jpg",
+    },
+    {
+      id: "new_random_id_6",
+      name: "Leather Notebook",
+      pages: "300 Pages",
+      price: "300",
+      desc: "<span style=\"color: orange; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(255, 218, 185, 0.2); border: 1px solid rgba(255, 140, 0, 0.5); padding: 5px;\">Limited Stock</span>",
+      img: "https://www.jiomart.com/images/product/original/rvsnzrdnjm/coi-black-diary-notebook-vintage-faux-leather-a5-travel-journal-to-do-list-planner-diary-for-business-professional-for-office-going-men-and-women-product-images-orvsnzrdnjm-p591416491-1-202205180418.jpg?im=Resize=(420,420)",
+    },
+    {
+      id: "new_random_id_7",
+      name: "Classmate Spiralbook Single Line",
+      pages: "260 Pages",
+      price: "155",
+      desc: "<span style=\"color: green; font-family: 'Arial Rounded MT Bold', Arial; font-size: 1.2em; background: rgba(144, 238, 144, 0.2); border: 1px solid rgba(50, 205, 50, 0.5); padding: 5px;\">Bestseller</span>",
+      img: "https://m.media-amazon.com/images/I/71NMYfWa7HL.SL1100.jpg",
+    },
+];

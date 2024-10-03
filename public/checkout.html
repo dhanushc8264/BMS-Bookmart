@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="checkout.css">
+  <link rel="stylesheet" href="stylebook.css"> <!-- Use the styles from books.html -->
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="stationary.css"> 
+  <style>
+    .go-back-btn {
+      background-color: purple;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 6px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .go-back-btn:hover {
+      background-color: #6a0dad;
+    }
+
+    h1 {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Complete Your Payment</h1>
+    <a href="cart.html" class="go-back-btn">Go Back to Cart</a>
+  </header>
+  <main>
+    <div class="payment-container">
+     
+      <div class="qr-code">
+        <img src="" alt="">
+      </div>
+      <div class="payment-methods">
+        <h2>Select a Payment Method</h2>
+        <div class="payment-options">
+          <div class="payment-option" id="phonepe">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsKmwT4Lg-b_pzcg000VGriLCqu-90Ot7ibgjRQT2u1g&s" alt="PhonePe">
+          </div>
+          <div class="payment-option" id="googlepay">
+            <img src="https://logowik.com/content/uploads/images/google-play-or-tez.jpg" alt="Google Pay">
+          </div>
+          <div class="payment-option" id="paytm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7v3tsOEmNZYUFyEVYbPXN5TSnRC_uaQ1tC5HX8ctC4HvsCLNgRWnG8eIcKh5xg8zKOCM&usqp=CAU" alt="Paytm">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="section-p1">
+    <div class="footer-col">
+        <img src="logo.png" alt="BMSCE Bookmart Logo">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> <br>  3B section,4th floor,PJ BLOCK, BMSCE </p>
+        <p><strong>Phone:</strong> +919686490654,+918050719240</p>
+        <p><strong>Hours:</strong><br> 09:00am - 4:00pm Mon-Sat</p>
+
+   
+    </div>
+
+    <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Printouts information</a></li>
+            <li><a href="#">Products information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <!-- <li><a href="#">Contact Us</a></li> -->
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h4>My Account</h4>
+        <ul>
+            <li><a href="#">Log Out</a></li>
+            <li><a href="#">View Cart</a></li>
+            <li><a href="#">My Orders</a></li>
+           
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Follow Us On</h4>
+        <div class="social-icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+        </div>
+       <br> <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="app-icons">
+            <img src="gplay.png" alt="Google Play">
+            <img src="astore.png" alt="App Store">
+        </div>
+    </div>
+
+    <!-- <div class="copyright"> -->
+        <!-- <p style="font-style: italic; font-weight: bolder;">&copy; Toppers&Loafers: Chittrana-Dose-Dhanush-Dheem</p> -->
+        <!-- 
+    </div> -->
+    
+</footer>
+<footer id="copyright" class="copyright">
+    <p style="font-style: italic; font-weight: bolder;">&copy;<p style="font-style: italic; font-weight: bolder;">&copy;T&L: Since 2023 - ALL RIGHTS</p></p>
+</footer>
+  <script >// scripts.js
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const paymentOptions = document.querySelectorAll('.payment-option');
+      const qrCode = document.querySelector('.qr-code img');
+    
+      paymentOptions.forEach(option => {
+        option.addEventListener('click', function() {
+          const paymentMethod = this.id;
+          switch (paymentMethod) {
+            case 'phonepe':
+              qrCode.src = 'https://miro.medium.com/v2/resize:fit:785/1*IR2e6Evsopa0qQy2PXTlFA.jpeg'; // Replace with actual QR code source
+              break;
+            case 'googlepay':
+              qrCode.src = 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/google-payment-qr-code-template-design-f00259ea89eb7cc0f6cc20bd8967a639_screen.jpg?ts=1702881345'; // Replace with actual QR code source
+              break;
+            case 'paytm':
+              qrCode.src = 'https://trulia.in/wp-content/uploads/2021/09/paytm-qr-code.png'; // Replace with actual QR code source
+              break;
+            default:
+              qrCode.src = 'https://trulia.in/wp-content/uploads/2021/09/paytm-qr-code.png'; // Replace with a default QR code or handle error
+          }
+        });
+      });
+    });
+    </script>
+</body>
+</html>
